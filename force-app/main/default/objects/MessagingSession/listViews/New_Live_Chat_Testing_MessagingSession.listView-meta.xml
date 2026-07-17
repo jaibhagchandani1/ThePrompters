@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Live_Chat_Testing_MessagingSession</fullName>
+    <filterScope>Queue</filterScope>
+    <label>New Live Chat Testing</label>
+    <queue>New_Live_Chat_Testing</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

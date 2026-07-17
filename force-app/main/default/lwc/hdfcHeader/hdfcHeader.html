@@ -1,0 +1,75 @@
+<template>
+
+    <header class="header">
+
+        <div class="leftSection">
+
+            <div class="logoContainer">
+
+                            <img
+                    src={logoUrl}
+                    alt="HDFC Life"
+                    class="logo"/>
+
+                
+
+            </div>
+
+        </div>
+
+        <div class="centerSection">
+
+            <nav>
+
+                <a href="#">Dashboard</a>
+
+                <a href="#">My Policies</a>
+
+                <a href="#">Claims</a>
+
+                <a href="#">Support</a>
+
+                <a href="#">Contact Us</a>
+
+            </nav>
+
+        </div>
+
+        <div class="rightSection">
+
+            <div class="notification">
+
+                <lightning-icon
+                    icon-name="utility:notification"
+                    size="small">
+                </lightning-icon>
+
+            </div>
+
+            <div class="customerInfo">
+
+                <div class="avatar">
+
+                    {initials}
+
+                </div>
+
+                <div>
+
+                    <div class="welcome">
+                        Welcome
+                    </div>
+
+                    <div class="name">
+                        {customerName}
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+</template>

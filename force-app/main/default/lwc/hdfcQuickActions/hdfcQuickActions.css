@@ -1,0 +1,71 @@
+.section{
+
+    padding:20px;
+}
+
+.sectionTitle{
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#004c8f;
+
+    margin-bottom:20px;
+}
+
+.actionGrid{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+}
+
+.actionCard{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:24px;
+
+    box-shadow:
+        0 4px 12px rgba(0,0,0,.08);
+
+    transition:.2s;
+
+    cursor:pointer;
+}
+
+.actionCard:hover{
+
+    transform:translateY(-4px);
+}
+
+.icon{
+
+    font-size:32px;
+
+    margin-bottom:15px;
+}
+
+.title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#004c8f;
+
+    margin-bottom:10px;
+}
+
+.description{
+
+    color:#666;
+
+    font-size:14px;
+}

@@ -1,0 +1,32 @@
+<template>
+
+    <lightning-card title="Create Support Case" icon-name="standard:case">
+
+        <div class="container">
+
+            <lightning-input
+                label="Subject"
+                value={subject}
+                onchange={handleSubject}
+                required>
+            </lightning-input>
+
+            <lightning-combobox
+                label="Priority"
+                value={priority}
+                options={priorityOptions}
+                onchange={handlePriority}
+                required>
+            </lightning-combobox>
+
+            <lightning-textarea
+                label="Description"
+                value={description}
+                onchange={handleDescription}>
+            </lightning-textarea>
+
+        </div>
+
+    </lightning-card>
+
+</template>

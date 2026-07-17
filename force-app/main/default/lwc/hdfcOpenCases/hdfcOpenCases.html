@@ -1,0 +1,73 @@
+<template>
+
+    <div class="caseContainer">
+
+        <div class="header">
+
+            <div>
+
+                <h2>
+                    My Open Cases
+                </h2>
+
+                <p>
+                    View and track your service requests
+                </p>
+
+            </div>
+
+            <lightning-button
+                label="Create Case"
+                variant="brand"
+                onclick={handleCreateCase}>
+            </lightning-button>
+
+        </div>
+
+        <template if:true={cases}>
+
+            <template
+                for:each={cases}
+                for:item="caseItem">
+
+                <div
+                    key={caseItem.caseId}
+                    class="caseCard">
+
+                    <div class="leftSection">
+
+                        <div class="caseNumber">
+                            #{caseItem.caseNumber}
+                        </div>
+
+                        <div class="subject">
+                            {caseItem.subject}
+                        </div>
+
+                        <div class="createdDate">
+                            Created :
+                            {caseItem.createdDate}
+                        </div>
+
+                    </div>
+
+                    <div class="rightSection">
+
+                        <span
+                            class={caseItem.statusClass}>
+
+                            {caseItem.status}
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </template>
+
+        </template>
+
+    </div>
+
+</template>

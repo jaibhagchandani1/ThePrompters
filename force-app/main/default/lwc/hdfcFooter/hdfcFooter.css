@@ -1,0 +1,181 @@
+.footer{
+
+    background:#003b70;
+
+    color:white;
+
+    margin-top:30px;
+}
+
+.topSection{
+
+    display:grid;
+
+    grid-template-columns:
+        2fr 1fr 1fr 1fr;
+
+    gap:40px;
+
+    padding:40px;
+}
+
+.logoContainer{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:15px;
+}
+
+.logoBox{
+
+    width:50px;
+
+    height:50px;
+
+    display:flex;
+
+    border-radius:6px;
+
+    overflow:hidden;
+}
+
+.redPart{
+
+    width:50%;
+
+    background:#e31837;
+}
+
+.bluePart{
+
+    width:50%;
+
+    background:#004c8f;
+}
+
+.logoText{
+
+    margin-left:12px;
+}
+
+.companyName{
+
+    font-size:18px;
+
+    font-weight:700;
+}
+
+.tagLine{
+
+    font-size:11px;
+
+    opacity:.8;
+}
+
+.companyDescription{
+
+    max-width:400px;
+
+    opacity:.85;
+
+    line-height:1.6;
+}
+
+.linksSection h3{
+
+    margin-bottom:15px;
+
+    font-size:18px;
+}
+
+.linksSection ul{
+
+    list-style:none;
+
+    padding:0;
+}
+
+.linksSection li{
+
+    margin-bottom:10px;
+}
+
+.linksSection a{
+
+    color:white;
+
+    text-decoration:none;
+
+    opacity:.85;
+}
+
+.linksSection a:hover{
+
+    opacity:1;
+}
+
+.socialIcons{
+
+    display:flex;
+
+    gap:10px;
+}
+
+.socialIcon{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.15);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    cursor:pointer;
+}
+
+.bottomSection{
+
+    border-top:
+        1px solid rgba(255,255,255,.15);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:20px 40px;
+
+    font-size:13px;
+}
+
+@media(max-width:1024px){
+
+    .topSection{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+    }
+
+    .bottomSection{
+
+        flex-direction:column;
+
+        gap:10px;
+    }
+}
+
+.footerLogo{
+
+    height:80px;
+
+    width:auto;
+}

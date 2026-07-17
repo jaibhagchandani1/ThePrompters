@@ -1,0 +1,208 @@
+.hero{
+
+    margin:20px;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    min-height:320px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #004c8f 0%,
+        #005fb2 45%,
+        #e31837 100%
+    );
+
+    color:white;
+}
+
+.leftSection{
+
+    width:60%;
+
+    padding:40px;
+}
+
+.badge{
+
+    display:inline-block;
+
+    background:rgba(255,255,255,.15);
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    font-size:12px;
+
+    margin-bottom:20px;
+}
+
+.leftSection h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+    line-height:1.2;
+}
+
+.leftSection span{
+
+    color:#ffdede;
+}
+
+.leftSection p{
+
+    max-width:550px;
+
+    font-size:16px;
+
+    line-height:1.6;
+
+    margin-bottom:25px;
+}
+
+.buttonSection{
+
+    display:flex;
+
+    gap:12px;
+
+    margin-bottom:30px;
+}
+
+.summaryCards{
+
+    display:flex;
+
+    gap:15px;
+}
+
+.summaryCard{
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(8px);
+
+    border-radius:14px;
+
+    padding:18px;
+
+    min-width:180px;
+}
+
+.label{
+
+    font-size:13px;
+
+    opacity:.8;
+}
+
+.value{
+
+    margin-top:8px;
+
+    font-size:24px;
+
+    font-weight:700;
+}
+
+.rightSection{
+
+    width:40%;
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+.illustration{
+
+    position:relative;
+}
+
+.circle{
+
+    width:260px;
+
+    height:260px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.15);
+}
+
+.content{
+
+    position:absolute;
+
+    top:50%;
+
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    text-align:center;
+}
+
+.bigText{
+
+    font-size:34px;
+
+    font-weight:700;
+}
+
+.smallText{
+
+    margin-top:10px;
+
+    font-size:16px;
+}
+
+@media(max-width:1024px){
+
+    .hero{
+
+        flex-direction:column;
+    }
+
+    .leftSection,
+    .rightSection{
+
+        width:100%;
+    }
+
+    .leftSection{
+
+        padding:25px;
+    }
+
+    .leftSection h1{
+
+        font-size:32px;
+    }
+
+    .summaryCards{
+
+        flex-direction:column;
+    }
+
+    .rightSection{
+
+        padding-bottom:30px;
+    }
+}

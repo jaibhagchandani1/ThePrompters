@@ -1,0 +1,59 @@
+<template>
+
+    <div class="page">
+
+        <!-- Header -->
+        <c-hdfc-header
+            customer-name={customerName}>
+        </c-hdfc-header>
+
+        <!-- Hero Banner -->
+        <c-hdfc-hero-banner
+            customer-name={customerName}>
+        </c-hdfc-hero-banner>
+
+        <!-- Dashboard Cards -->
+        <c-hdfc-dashboard-cards open-case-count={openCaseCount}>
+        </c-hdfc-dashboard-cards>
+
+        <!-- Main Content -->
+
+        <div class="mainGrid">
+
+            <div class="leftPanel">
+
+                <c-hdfc-open-cases
+                    cases={cases}>
+                </c-hdfc-open-cases>
+
+            </div>
+
+            <div class="rightPanel">
+
+                <c-hdfc-agentforce-panel
+                    customer-name={customerName}
+                    email={email}>
+                </c-hdfc-agentforce-panel>
+
+            </div>
+
+        </div>
+
+        <!-- Quick Actions -->
+
+        <c-hdfc-quick-actions>
+        </c-hdfc-quick-actions>
+
+        <!-- Advisor Card -->
+
+        <c-hdfc-advisor-card>
+        </c-hdfc-advisor-card>
+
+        <!-- Footer -->
+
+        <c-hdfc-footer>
+        </c-hdfc-footer>
+
+    </div>
+
+</template>
