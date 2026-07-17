@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Fetch the order details on the basis of the logged in user email which will be provided by the messaging session context variable &apos;Customer_Email&apos; and fetch the orders and provide the details to the user</description>
+    <developerName>Get_Order_Details_New</developerName>
+    <invocationTarget>Get_Order_Details</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <mappingAttributes>
+        <label>Customer_Email</label>
+        <name>input_Customer_Email</name>
+        <parameterName>Customer_Email</parameterName>
+        <parameterType>input</parameterType>
+    </mappingAttributes>
+    <masterLabel>Get Order Details New</masterLabel>
+    <progressIndicatorMessage>Fetching Orders</progressIndicatorMessage>
+</GenAiFunction>

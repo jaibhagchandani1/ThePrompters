@@ -29,6 +29,14 @@
         <name>GenAiFunction</name>
     </types>
 
-    
+    <!-- Einstein Bot Framework Orchestration -->
+    <types>
+        <members>Your_Agent_Bot_API_Name</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>BotVersion</name>
+    </types>
     <version>67.0</version>
 </Package>

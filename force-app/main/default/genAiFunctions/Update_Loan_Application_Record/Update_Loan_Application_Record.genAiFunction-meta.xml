@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Update the loan application record and values are coming from the agentforce data library</description>
+    <developerName>Update_Loan_Application_Record</developerName>
+    <invocationTarget>LoanApplicationController</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Update Loan Application Record</masterLabel>
+    <progressIndicatorMessage>Updating the Record</progressIndicatorMessage>
+</GenAiFunction>

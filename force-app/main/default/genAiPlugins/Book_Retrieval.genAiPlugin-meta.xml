@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aiPluginUtterances>
+        <developerName>utterance_showmeallt0</developerName>
+        <language>en_US</language>
+        <masterLabel>utterance_showmeallt0</masterLabel>
+        <utterance>Show me all the books then filter = 2</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>Handles requests related to fetching all books from the system.</description>
+    <developerName>Book_Retrieval</developerName>
+    <genAiFunctions>
+        <functionName>RetrieveBooksNew</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>Once the rating is provided in the combobox then retrieve all the books</description>
+        <developerName>instructions_0_1757395702694</developerName>
+        <language>en_US</language>
+        <masterLabel>instructions_0_1757395702694</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>User will ask to fetch the books</description>
+        <developerName>instruction_oncetheuse0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_oncetheuse0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask the user for filter of (Rating) in combobox using lwc</description>
+        <developerName>instruction_whenausera1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenausera1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Book Retrieval</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to retrieve all books available in the system when requested with the filters using custom or standard typs</scope>
+</GenAiPlugin>

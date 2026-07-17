@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Handles requests related to updating loan application records, including modifications and corrections.</description>
+    <developerName>Loan_Application_Updates</developerName>
+    <genAiFunctions>
+        <functionName>Update_Loan_Application_Record</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Loan_Application_Details</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>For updating the loan application use the &apos;Update_Loan_Application_Record&apos; action and pass the Loan Application Id and Loan Type, Interest Rate (APR), Max Tenure, Processing Fee, Eligibility Criteria and Document Checklist.
+The Interest Rate (APR), Max Tenure, Processing Fee, Eligibility Criteria and Document Checklist should be one you got form the &apos;Loan Application Details&apos; Action.</description>
+        <developerName>instruction_forupdatin0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_forupdatin0</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When a user to update the Loan Application Record, make sure to ask user to provide the Loan Type and Loan Application Id, If Not Provided then show this message &apos;Please provide the type and Id to proceed further&apos; once provided then Based on the loan type you need to invoke &apos;Loan Application Details&apos; by passing the loan type and get the values for Interest Rate (APR), Max Tenure, Processing Fee, Eligibility Criteria and Document Checklist</description>
+        <developerName>instruction_whenausert1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_whenausert1</masterLabel>
+        <sortOrder>0</sortOrder>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Loan Application Updates</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to update and modify loan application records based on user requests.</scope>
+</GenAiPlugin>

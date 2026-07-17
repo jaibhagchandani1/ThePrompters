@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Find Available Hotels</description>
+    <developerName>Find_hotels</developerName>
+    <invocationTarget>HotelReservation</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Find hotels</masterLabel>
+    <progressIndicatorMessage>Finding Hotels</progressIndicatorMessage>
+</GenAiFunction>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>User will ask to showcase the list of cases and we have to ask for case status if case status not provided then ask &apos;Please enter the status to proceed further&apos; and once the status is provided then we will the the table of cases which are present
+ for e.g : - please give the list of new status cases</description>
+    <developerName>Return_the_case_list</developerName>
+    <invocationTarget>CaseListTable</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+    <masterLabel>Return the case list</masterLabel>
+</GenAiFunction>
