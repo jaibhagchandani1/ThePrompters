@@ -1,0 +1,14 @@
+{
+  "required" : [ "filters" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "filters" : {
+      "title" : "filters",
+      "description" : "Pass the rating given by the user",
+      "lightning:type" : "c__RatingPicklistInput",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

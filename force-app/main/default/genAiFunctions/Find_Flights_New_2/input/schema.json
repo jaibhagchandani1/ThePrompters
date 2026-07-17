@@ -1,0 +1,34 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "dateOfTravel" : {
+      "title" : "dateOfTravel",
+      "description" : "Date Of Travel In the Form Of Text Box",
+      "lightning:type" : "lightning__dateType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "destinationCity" : {
+      "title" : "destinationCity",
+      "description" : "Destination City In the Form Of Text Box",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "filters" : {
+      "title" : "filters",
+      "description" : "Filters In the Form Of Text Box",
+      "lightning:type" : "@apexClassType/c__FlightAgent$Filter",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "originCity" : {
+      "title" : "originCity",
+      "description" : "Origin City In the Form Of Text Box",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

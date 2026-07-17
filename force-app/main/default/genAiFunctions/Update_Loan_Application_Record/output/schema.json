@@ -1,0 +1,18 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "loanAppRecord" : {
+      "title" : "Updated Loan Application Record",
+      "description" : "Once loan application is updated then display this record in the UI",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Loan_Application__c"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

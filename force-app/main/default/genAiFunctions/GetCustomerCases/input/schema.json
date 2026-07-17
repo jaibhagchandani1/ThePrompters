@@ -1,0 +1,14 @@
+{
+  "required" : [ "email" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "email" : {
+      "title" : "email",
+      "description" : "Pass the variable name HDFC_Customer_Email of the customer from the messaging session variables",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

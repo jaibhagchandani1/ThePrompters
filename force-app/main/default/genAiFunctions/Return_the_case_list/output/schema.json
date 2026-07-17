@@ -1,0 +1,19 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseWrapperList" : {
+      "title" : "caseWrapperList",
+      "description" : "Show the datatable of lwc with data table",
+      "maxItems" : 2000,
+      "items" : {
+        "lightning:type" : "c__caseResponse"
+      },
+      "lightning:type" : "lightning__listType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

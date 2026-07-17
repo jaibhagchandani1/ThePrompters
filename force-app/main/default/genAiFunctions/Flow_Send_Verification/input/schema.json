@@ -1,0 +1,14 @@
+{
+  "required" : [ "username" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "username" : {
+      "title" : "username",
+      "description" : "Pass the username given by the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

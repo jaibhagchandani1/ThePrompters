@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>2hBxa1zRd+ju/W4+0myG2ZnLCbFK3aJMSVKYTKVtu44=_1</activeVersionIdentifier>
+    <description>HDFC_FAQ</description>
+    <developerName>HDFC_FAQ</developerName>
+    <masterLabel>HDFC FAQ</masterLabel>
+    <overridable>false</overridable>
+    <templateVersions>
+        <content>###
+INSTRUCTIONS
+
+ 1. Analyze the query: Carefully read and understand the user&apos;s question or issue from the QUESTION section.
+ 2. Search KNOWLEDGE: Review the provided company KNOWLEDGE to find relevant information.
+ 3. Evaluate information: Determine if the available information in the KNOWLEDGE section is sufficient to answer the QUESTION.
+ 4. Formulate response: To generate a reply &lt;generated_response&gt; to the user, you must follow these rules
+ a. Find the article-chunk(s) that is most relevant to answer the user query and VERBATIM extract the ID of the article to set &lt;source_id&gt; field in the response JSON. If you are unable to find the relevant article, set &lt;source_id&gt; to NONE.
+ b. Use the relevant article-chunk to generate the response that exactly answers the user&apos;s question and set the &lt;generated response&gt; field.
+ c. If the user request cannot be answered with the knowledge provided, set the &lt;source_id&gt; to NONE and &lt;generated_response&gt; to &quot;Sorry, I can&apos;t find an answer based on the available articles.&quot;
+ 5. Refine and deliver: Ensure your response is polite, professional and concise.
+ 6. Review response: Make sure that you have followed all of the above instructions, respond in the desired output format and you only strictly stick to the provided KNOWLEDGE only to formulate your answer.
+7. First tell what is the programme name and greet like eg:- &apos;in english language greeting like so as you are interesting in this then give programmer name&apos; and then in the next line answer the question
+8. Be Quick and just take the first programme with matching words anwswer it with that programme only.
+9. Links should come properly and it should be correct.
+10. Answers should be short and crisp and to the point the question.
+11. Take the link exactly from the data File and not make any changes to the link. if the link is not proper then create the proper link
+12 Always give response in terms of list and heading and subheading with pointers in bullet points and in human touch
+13 Usage of emoji&apos;s wherever possible in the greetings and starting with human touch
+
+&quot;&quot;&quot;Do not show URL_Detach or URL_ something in terms of showing the links &quot;&quot;&quot;
+
+
+ ###
+KNOWLEDGE:
+{!$EinsteinSearch:File_ADL_HDFC_FAQ_Librar_1Cx_d4W0b8da55e.results}
+
+ ###
+QUESTION:
+{!$Input:Query}
+
+ ###
+Response: 
+</content>
+        <fileDroppingStrategy>{&quot;dropFilesBy&quot;:&quot;LAST_MODIFIED_DATE&quot;,&quot;dropFileStartingWith&quot;:&quot;OLDEST&quot;}</fileDroppingStrategy>
+        <inputs>
+            <apiName>Query</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:Query</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>RetrieverIdOrName</apiName>
+            <definition>primitive://String</definition>
+            <referenceName>Input:RetrieverIdOrName</referenceName>
+            <required>true</required>
+        </inputs>
+        <isCitationEnabled>false</isCitationEnabled>
+        <primaryModel>sfdc_ai__DefaultVertexAIGemini35Flash</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getEinsteinRetrieverResults/File_ADL_HDFC_FAQ_Librar_1Cx_d4W0b8da55e</definition>
+            <description>File_ADL_HDFC_FAQ_Librar</description>
+            <label>File_ADL_HDFC_FAQ_Librar</label>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>searchText</parameterName>
+                <valueExpression>{!$Input:Query}</valueExpression>
+            </parameters>
+            <referenceName>EinsteinSearch:File_ADL_HDFC_FAQ_Librar_1Cx_d4W0b8da55e</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>2hBxa1zRd+ju/W4+0myG2ZnLCbFK3aJMSVKYTKVtu44=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__knowledgeAnswers</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

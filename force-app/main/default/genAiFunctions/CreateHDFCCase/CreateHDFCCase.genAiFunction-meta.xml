@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create HDFC Case By taking all the info from user</description>
+    <developerName>CreateHDFCCase</developerName>
+    <invocationTarget>HDFCCaseCreationController</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>false</isIncludeInProgressIndicator>
+    <localDeveloperName>CreateHDFCCase</localDeveloperName>
+    <masterLabel>Create HDFC Case</masterLabel>
+</GenAiFunction>

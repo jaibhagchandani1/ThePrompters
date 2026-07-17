@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "aBookOptions" : {
+      "title" : "aBookOptions",
+      "description" : "Display all the book to the UI",
+      "lightning:type" : "c__AvailableBooks",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

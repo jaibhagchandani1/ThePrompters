@@ -1,0 +1,21 @@
+{
+  "required" : [ "orderName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "orderName" : {
+      "title" : "orderName",
+      "description" : "We will take the order name from the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "recordId" : {
+      "title" : "recordId",
+      "description" : "messaging session record id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

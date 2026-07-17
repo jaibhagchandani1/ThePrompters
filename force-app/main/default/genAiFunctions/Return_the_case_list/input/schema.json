@@ -1,0 +1,14 @@
+{
+  "required" : [ "caseStatus" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseStatus" : {
+      "title" : "caseStatus",
+      "description" : "We will ask for the ",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,33 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "VerificationMessage" : {
+      "title" : "VerificationMessage",
+      "description" : "Stores the generic message which will be displayed to the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "authenticationKey" : {
+      "title" : "authenticationKey",
+      "description" : "Stores the authentication key which is required to generate the code",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "verificationCode" : {
+      "title" : "verificationCode",
+      "description" : "Stores the generated verification code",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : false,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,21 @@
+{
+  "required" : [ "Email", "Subject" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Email" : {
+      "title" : "Email",
+      "description" : "Input to take the email from the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Subject" : {
+      "title" : "Subject",
+      "description" : "Input to take the subject from the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

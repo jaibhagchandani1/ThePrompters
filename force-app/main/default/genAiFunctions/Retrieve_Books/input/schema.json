@@ -1,0 +1,14 @@
+{
+  "required" : [ "bookName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "bookName" : {
+      "title" : "bookName",
+      "description" : "Pass the book name if user has provided",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

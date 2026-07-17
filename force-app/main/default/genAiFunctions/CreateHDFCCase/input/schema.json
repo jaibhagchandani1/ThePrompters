@@ -1,0 +1,21 @@
+{
+  "required" : [ "caseDetails" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseDetails" : {
+      "title" : "caseDetails",
+      "description" : "Collect Input From User",
+      "lightning:type" : "c__CreateCaseInput",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "email" : {
+      "title" : "email",
+      "description" : "Do NOT ask user.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

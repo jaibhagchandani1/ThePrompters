@@ -1,0 +1,27 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Customer_Email" : {
+      "title" : "Customer_Email",
+      "description" : "Customer_Email variable which is present inside the messaging context variable",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "orderName" : {
+      "title" : "orderName",
+      "description" : "Do not take the order name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "recordId" : {
+      "title" : "recordId",
+      "description" : "messaging session record id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

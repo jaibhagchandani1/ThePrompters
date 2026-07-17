@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseOptions" : {
+      "title" : "caseOptions",
+      "description" : "Display all the cases to the customer",
+      "lightning:type" : "c__CustomerCases",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

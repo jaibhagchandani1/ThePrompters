@@ -1,0 +1,33 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseId" : {
+      "title" : "caseId",
+      "description" : "Case ID",
+      "lightning:type" : "lightning__recordIdType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : false,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "caseNumber" : {
+      "title" : "caseNumber",
+      "description" : "Case number which is created",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    },
+    "status" : {
+      "title" : "status",
+      "description" : "Status of the case",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,14 @@
+{
+  "required" : [ "caseNumberList" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "caseNumberList" : {
+      "title" : "caseNumberList",
+      "description" : "Pass the case number given by the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

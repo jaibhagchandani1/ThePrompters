@@ -1,0 +1,15 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "order" : {
+      "title" : "Order",
+      "description" : "Returns The order of the order",
+      "lightning:type" : "@apexClassType/c__agentforceOrderSearch$Order",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true,
+      "copilotAction:useHydratedPrompt" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

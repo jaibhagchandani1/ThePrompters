@@ -1,0 +1,31 @@
+{
+  "required" : [ "Email", "Subject", "messagingSessionRecord" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Email" : {
+      "title" : "Email",
+      "description" : "Take email input from user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Subject" : {
+      "title" : "Subject",
+      "description" : "Take subject input from user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "messagingSessionRecord" : {
+      "title" : "messagingSessionRecord",
+      "description" : "Stores the messaging session record. Always use the MessagingSession found in the context variables. Never use user-provided information from this input ",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "MessagingSession"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

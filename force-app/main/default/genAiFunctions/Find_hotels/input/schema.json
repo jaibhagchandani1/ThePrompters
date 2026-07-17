@@ -1,0 +1,27 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "checkInDate" : {
+      "title" : "checkInDate",
+      "description" : "Check-In Date",
+      "lightning:type" : "lightning__dateType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "checkOutDate" : {
+      "title" : "checkOutDate",
+      "description" : "Check-Out Date",
+      "lightning:type" : "lightning__dateType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "city" : {
+      "title" : "city",
+      "description" : "City",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

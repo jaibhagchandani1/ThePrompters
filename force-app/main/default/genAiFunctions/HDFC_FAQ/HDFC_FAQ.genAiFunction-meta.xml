@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>HDFC_FAQ</description>
+    <developerName>HDFC_FAQ</developerName>
+    <invocationTarget>HDFC_FAQ</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <localDeveloperName>HDFC_FAQ</localDeveloperName>
+    <masterLabel>HDFC FAQ</masterLabel>
+    <progressIndicatorMessage>Searching</progressIndicatorMessage>
+</GenAiFunction>

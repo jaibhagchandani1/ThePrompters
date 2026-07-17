@@ -1,0 +1,56 @@
+{
+  "required" : [ "documentChecklist", "eligibilityCriteria", "interestRateAPR", "loanApplicationId", "loanType", "maxTenure", "processingFee" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "documentChecklist" : {
+      "title" : "documentChecklist",
+      "description" : "Pass the Document Checklist given by the Agentforce Data Library",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "eligibilityCriteria" : {
+      "title" : "eligibilityCriteria",
+      "description" : "Pass the Eligibility Criteria given by the Agentforce Data Library",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "interestRateAPR" : {
+      "title" : "Interest Rate APR",
+      "description" : "Pass the interest rate given by the Agentforce Data Library",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "loanApplicationId" : {
+      "title" : "Loan Application Id",
+      "description" : "Pass the loan application id given by the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "loanType" : {
+      "title" : "Loan Type",
+      "description" : "Pass the loan type given by the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "maxTenure" : {
+      "title" : "Max Tensure",
+      "description" : "Pass the Maximum Tenure given by the Agentforce Data Library",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "processingFee" : {
+      "title" : "ProcessingFee",
+      "description" : "Pass the Processing Fee given by the Agentforce Data Library",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

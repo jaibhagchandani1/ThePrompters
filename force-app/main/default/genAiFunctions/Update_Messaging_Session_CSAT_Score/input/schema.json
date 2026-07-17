@@ -1,0 +1,21 @@
+{
+  "required" : [ "CSATScore" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "CSATScore" : {
+      "title" : "CSATScore",
+      "description" : "CSAT score input from user",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "recordId" : {
+      "title" : "recordId",
+      "description" : "RecordId means routableid of messaging session",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

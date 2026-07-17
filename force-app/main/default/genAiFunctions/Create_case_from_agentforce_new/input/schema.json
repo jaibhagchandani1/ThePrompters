@@ -1,0 +1,28 @@
+{
+  "required" : [ "Email", "Subject" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Email" : {
+      "title" : "Email",
+      "description" : "Take email from the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "Subject" : {
+      "title" : "Subject",
+      "description" : "Take subject from the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : true
+    },
+    "recordId" : {
+      "title" : "recordId",
+      "description" : "This will be the messaging session id",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}
