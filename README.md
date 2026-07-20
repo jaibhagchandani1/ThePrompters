@@ -302,8 +302,8 @@ sf apex run test
 
 # 👨‍💻 Team Members
 
-| Name | Role |
-|------|------|
+| Name 
+|------
 | Jai Bhagchandani
 | Shaji 
 | Theepan (TK) 
