@@ -304,10 +304,10 @@ sf apex run test
 
 | Name | Role |
 |------|------|
-| Jai Bhagchandani | Salesforce Developer |
-| Shaji | Salesforce Developer |
-| Theepan (TK) | Salesforce Developer |
-| Anshu Jha | Salesforce Developer |
+| Jai Bhagchandani
+| Shaji 
+| Theepan (TK) 
+| Anshu Jha
 
 ---
 
